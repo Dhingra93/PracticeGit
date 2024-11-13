@@ -19,8 +19,7 @@ eggs/
 lib/
 lib64/
 parts/
-sdist/
-var/
+gitvar/
 wheels/
 share/python-wheels/
 *.egg-info/
