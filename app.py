@@ -33,7 +33,7 @@ def form():
 
         average_marks=(maths+science+history)/3
         
-    return render_template(url_for(results,results=average_marks))
+    #return render_template(url_for(results.html,results=average_marks))
 
 @app.route('/api',methods=['POST'])
 def calculate_sum():
